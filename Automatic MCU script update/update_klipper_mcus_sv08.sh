@@ -8,10 +8,12 @@
 
 # I'm a string, so I look like: HOSTSERIAL='XXXXXXXX'
 HOSTSERIAL='XXXXXXXX'
+HOSTSERIAL='32FFD905334E563629572051-if00'
 
 # I'm an array so I look like: TOOLHEADSERIAL=('YYYYYYY')
 # For multiple serials/toolheads use (mind the space in between items!): TOOLHEADSERIAL=('YYYYYYY1' 'YYYYYYY2' 'YYYYYYY3')
 TOOLHEADSERIALS=('YYYYYYY') # For multiple serials use: TOOLHEADSERIALS=('SERIAL_1' 'SERIAL_2' 'SERIAL_3')
+TOOLHEADSERIALS=('55FF6D064849825355341267-if00')
 
 # I'm a string, so I look like: EDDYSERIAL='XXXXXXXX'
 # This assumes your Eddy has the Katapult bootloader!
